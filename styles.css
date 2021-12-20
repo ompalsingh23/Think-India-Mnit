@@ -1,0 +1,102 @@
+
+
+.navbar{
+    height: 142px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#logo_ti{
+    position: absolute;
+width: 74px;
+height: 84px;
+left: 84px;
+top: 29px;
+}
+#logo_mnit{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 180px;
+top: 30px;
+
+}
+#h_ti_En{
+    position: absolute;
+    width: 261px;
+    height: 32px;
+    left: 337px;
+    top: 39px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    
+    color: #F58220; 
+}
+#h_ti_Hi{
+    position: absolute;
+width: 223px;
+height: 32px;
+left: 337px;
+top: 71px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 31px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #F58220;
+}
+#Vector1 {
+        position: absolute;
+        left: 16.67%;
+        right: 16.67%;
+        top: 29.17%;
+        bottom: 62.5%;
+        background: #F58220;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#Vector2{
+    position: absolute;
+    left: 50.67%;
+    right: 16.67%;
+    top: 54.17%;
+    bottom: 37.5%;
+    background: #F58220;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#Vector3 {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 79.17%;
+    bottom: 12.5%;
+    background: #F58220;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#Menu{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    right:97.17px;
+    top: 69.46px;
+    
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#Menu_group{
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 59.17%;
+    bottom: -33.5%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
