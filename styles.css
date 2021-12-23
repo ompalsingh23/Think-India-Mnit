@@ -1,51 +1,21 @@
-
-
-.navbar{
-    height: 142px;
-    
+.container1{
+    width: auto;
     background: #FFFFFF;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-#logo_ti{
-    position: absolute;
-width: 74px;
-height: 84px;
-left: 84px;
-top: 29px;
+    height: 142px;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
 }
 #logo_mnit{
-    position: absolute;
-width: 82px;
-height: 82px;
-left: 180px;
-top: 30px;
+    width: 82px;
+    height: 82px;
 
 }
-#h_ti_En{
-    position: absolute;
-    width: 261px;
-    height: 32px;
-    left: 337px;
-    top: 39px;
-    
+#logo_ti{
+    width: 74px; 
+    height: 84px;
+  
+}
+#heading1{
     font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 31px;
-    /* identical to box height */
-    
-    
-    color: #F58220; 
-}
-#h_ti_Hi{
-    position: absolute;
-width: 223px;
-height: 32px;
-left: 337px;
-top: 71px;
-
-font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 21px;
@@ -53,50 +23,101 @@ line-height: 31px;
 /* identical to box height */
 
 text-transform: uppercase;
-
 color: #F58220;
 }
-#Vector1 {
-        position: absolute;
-        left: 16.67%;
-        right: 16.67%;
-        top: 29.17%;
-        bottom: 62.5%;
-        background: #F58220;
-        transform: matrix(1, 0, 0, -1, 0, 0);
-}
-#Vector2{
-    position: absolute;
-    left: 50.67%;
-    right: 16.67%;
-    top: 54.17%;
-    bottom: 37.5%;
-    background: #F58220;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
-#Vector3 {
-    position: absolute;
-    left: 16.67%;
-    right: 16.67%;
-    top: 79.17%;
-    bottom: 12.5%;
-    background: #F58220;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
-#Menu{
-    position: absolute;
-    width: 49px;
-    height: 49px;
-    right:97.17px;
-    top: 69.46px;
+#heading2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    /* identical to box height */
     
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    text-transform: uppercase;
+    color: #F58220;
 }
-#Menu_group{
+.heading_2{
+    
+}
+.background_img2{
+    display: inline;
+}
+#heading_3{
     position: absolute;
-    left: 16.67%;
-    right: 16.67%;
-    top: 59.17%;
-    bottom: -33.5%;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 131.5%;
+/* identical to box height, or 66px */
+
+text-align: center;
+
+color: #F58220;
+width: 758px;
+height: 66px;
+}
+#img_back1{
+    width: 100%;
+}
+.icons{
+   margin-left: 10px;
+   margin-right: 10px;
+ 
+}
+ .center{
+    padding-top: 15px;
+  
+ }
+ .para_about{
+     padding-top: 50px;
+ }
+ .para{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(74, 74, 74, 0.15);
+    border-radius: 23px;
+    padding:10px 20px;
+    
+ }
+ #para1{
+     padding: 25px 25px;
+ }
+ #para_img{
+    width: 408px;
+    height: 322px;
+    
+    padding-top: 25px;
+ }
+ #announcement1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 131.5%;
+    /* identical to box height, or 46px */
+    
+    text-align: center;
+    
+    color: #F58220;
+ }
+ #announcement2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 131.5%;
+    /* identical to box height, or 46px */
+    
+    text-align: center;
+    
+    color: #F58220;
+ }
+ .vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
 }
