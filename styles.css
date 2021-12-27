@@ -115,9 +115,30 @@ height: 66px;
     
     color: #F58220;
  }
- .vertical {
-    border-left: 6px solid black;
-    height: 200px;
-    position:absolute;
-    left: 50%;
+ .vl {
+    border-left: 2px solid #FFFFFF;
+    height: 300px;
+    text-align: right;
+  }
+  .person_timj{
+  position: relative;
+  }
+  .person{
+ position: absolute;
+  }
+  .parent-img{
+    position: relative;
+}
+#container {
+    position:relative;
+}
+
+#img2 {
+    position: absolute;
+
+    top: 30%;
+   
+}
+#person_text{
+    top: 60%;
 }
