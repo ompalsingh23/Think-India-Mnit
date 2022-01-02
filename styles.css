@@ -189,71 +189,73 @@ height: 66px;
     justify-content: center;
 }
 
-/*  */
-/*  */
-.myname {
-    list-style: none;
-    position: absolute;
-    background-color:#F58220;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 1700px;
-    text-align: center;
-    
-    
-    transition: 0.5s;
-    display: none;
-
-}
-
-
- .myname.active {
-    left: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-    overflow-x: hidden;
-} 
-
-.nav-list ul li a:hover{
-    background: black;
-    transition: 0.5s;
-}
-
-.nav-list ul a {
-    font-size: 2.4rem;
-    font-weight: 500;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    padding: 20px;
-}
-
-/* .menubtn {
-    height: 50px;
-    width: 50px;
-    border: 3px solid white;
-    border-radius: 50%;
-    display: block;
-    z-index: 100; 
-     cursor: pointer;
-    margin-right: 20px; 
-  */
-
-
-/*  */
-/*  */
-.menubtn{
+.container_menu {
+    display: inline-block;
     cursor: pointer;
-    z-index: 999;
-}
-.menubar{
-    position: absolute;
-    padding-left: 90%;
-}
+  }
+
+  .menu{
+      height: 100vh;
+      width: 300px;
+      background-color: #2D0808;
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      right: -300px;
+  }
+  .menubtn{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 27px;
+      position: absolute;
+      top: 25px;
+      left: -50px;
+      
+  }
+  .menubtn span:nth-child(2){
+      width: 30px;
+  }
+  .menubtn:hover span:nth-child(odd){
+      width: 30px;
+  }
+  .menubtn:hover span:nth-child(2){
+      width: 40px;
+  }
+
+
+  .menubtn span{
+      height: 5px;
+      width: 40px;
+      background-color: #333;
+      border-radius: 20px ;
+      transition: width 0.5s;
+  } 
+  .nav2{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column ;
+     justify-content: center;
+     align-items: center;
+  }
+  .nav2 ul{
+      list-style: none;
+  }
+  .nav2 ul li{
+      padding: 10px;
+  }
+  .nav2 ul li a{
+      text-decoration: none;
+      color: #fff;
+  }
+  .nav2 ul li a:hover{
+      color: #FF7500;
+  }
+  
+
+
 @media screen and (max-width:660px) {
     .menubar{
         position: absolute;
