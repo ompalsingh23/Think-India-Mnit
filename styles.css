@@ -525,3 +525,13 @@ border-radius: 10px;
     display: block;
    
   }
+
+ #sections_col{
+   background-color: #2D0808;
+   height: 300px;
+   border: 1px solid #fff;
+ }
+ #sections_col:hover{
+     transform: scale(1.3);
+     z-index: 1000;
+ }
