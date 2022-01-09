@@ -548,3 +548,51 @@ list-style: none;
  .purpose_debate  ul{
      list-style: none;
  }
+
+
+ 
+ /* entreprenuer section .....................................................*/
+ .vision_ep{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .vision_ep ul{
+     list-style: none;
+ }
+ .vision_ep_img{
+width: 100%;
+margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ /* coding section .....................................................*/
+
+ .achievements_coding1{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+ }
+ .achievements_coding1 ul{
+     list-style: none;
+ }
+ .achievements_coding2{
+     height: 100%;
+     width: 100%;
+ }
